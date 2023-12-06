@@ -1,14 +1,19 @@
 # as3p2-starter-f23
 
-You will have to edit some of these files to get your web servers working.
+# File Locations
+## cloud-config.yaml
+	 - Used as an initialization script of the droplet
+- Used as initialization script for both web1 and web2
 
-The included backend server runs on port 8080, 127.0.0.1:8080
+## hello-server
+ - /var/www/backend
 
-## Included material
+## hello-server.service
+ - /etc/systemd/system
 
-- backend binary, hello-server
-- frontend, index.html
-- nginx configuration file, hello.conf
-- service file for backend, hello-server.service
-- config for setting up servers, cloud-config.yml
-- example curl commands for testing your server, curl.md
+## hello.conf
+ - /etc/nginx/sites-available
+
+## index.html
+ - /var/www/my-site
+
