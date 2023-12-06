@@ -2,7 +2,6 @@
 
 # File Locations
 ## cloud-config.yaml
-	 - Used as an initialization script of the droplet
 - Used as initialization script for both web1 and web2
 
 ## hello-server
